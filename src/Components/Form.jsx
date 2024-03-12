@@ -65,7 +65,7 @@ export const Form = () => {
             
                 <div className="d-flex justify-content-evenly">   
                   <a href="https://www.instagram.com/toto_amado" target="_blank" rel="noopener noreferrer" className='nav-item nav-link' style={{fontSize:"30px"}}><i className="bi bi-instagram" ></i></a> 
-                  <a href="https://api.whatsapp.com/send/?phone=5491169766847&text=Hola+Thomas%21+he+revisado+tu+portafolio+y+me+gustaria+hablar+contigo+...++&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className='nav-item nav-link' style={{fontSize:"30px"}}><i className="bi bi-whatsapp "></i></a>   
+                  <a href="https://api.whatsapp.com/send/?phone=5491169693725&text=Hola+Thomas%21+he+revisado+tu+portafolio+y+me+gustaria+hablar+contigo+...++&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className='nav-item nav-link' style={{fontSize:"30px"}}><i className="bi bi-whatsapp "></i></a>   
                 </div>
           </div>
     </div>
