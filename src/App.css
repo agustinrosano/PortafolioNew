@@ -119,7 +119,7 @@ img {
         justify-content: space-around;
     }
     #section-about div img {
-        max-width: 100%;
+        max-width: 99%;
     }
  
   }
