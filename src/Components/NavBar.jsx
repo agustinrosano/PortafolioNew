@@ -14,24 +14,24 @@ export const NavBar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav" >
         <div className='d-flex justify-content-end'>
-        <ul className="navbar-nav " style={{marginLeft:'10px'}}>
-          <li>  
-            <Link to='/ 'className="nav-item nav-link" style={{fontSize:"22px"}}>
-                  Home
-            </Link>
-          </li>
-          <li>  
-            <Link to='/about 'className="nav-item nav-link" style={{fontSize:"22px"}}>
-                 About 
-            </Link>
-          </li>
-          <li>  
-            <Link to='/contac 'className="nav-item nav-link" style={{fontSize:"22px"}}>
-                 Contact
-            </Link>
-          </li>
-       
-        </ul>
+            <ul className="navbar-nav " style={{marginLeft:'10px'}}>
+              <li>  
+                <Link to='/ 'className="nav-item nav-link" style={{fontSize:"22px"}}>
+                      Home
+                </Link>
+              </li>
+              <li>  
+                <Link to='/about 'className="nav-item nav-link" style={{fontSize:"22px"}}>
+                    About 
+                </Link>
+              </li>
+              <li>  
+                <Link to='/contac 'className="nav-item nav-link" style={{fontSize:"22px"}}>
+                    Contact
+                </Link>
+              </li>
+          
+            </ul>
         </div>
       </div>
     </div>
