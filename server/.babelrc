@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+
+    //https://www.youtube.com/watch?v=bYMT0KFuT1k   12:41
+}
