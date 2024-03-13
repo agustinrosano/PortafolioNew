@@ -1,33 +1,7 @@
-img {
-    width:100%;
-  }
-  .header {
-      text-align: center;
-      padding: 32px;
-  }
-  
-  .rower {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0 4px;
-      max-width:1400px;
-      margin: 0 auto;
-  }
-  img {
-    box-shadow: 0px -1px 14px 8px rgba(10,10,10,0.25);
-    -webkit-box-shadow: 0px -1px 14px 8px rgba(10,10,10,0.25);
-    -moz-box-shadow: 0px -1px 14px 8px rgba(10,10,10,0.25);
-  }
-  /* Create four equal columns that sits next to each other */
-  .column {
-      flex: 25%;
-      max-width: 25%;
-      padding: 0 5px;
-  }
-  
-  .column img {
-      margin-top: 18px;
-      vertical-align: middle;
+
+
+  .contain {
+      padding: 2rem;
   }
 
   #section-about {
@@ -68,10 +42,7 @@ img {
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media (max-width: 1200px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+   
     /* -------------------- about section---------------------------*/
             #section-about {
                 margin-left: 5rem;
@@ -82,7 +53,7 @@ img {
            
             max-width: 350px;
         }
-        #section-about div img {
+        #section-about div .img-about {
             max-width: 100%;
         }
         
@@ -90,10 +61,7 @@ img {
 }
 
   @media (max-width: 800px) {
-      .column {
-          flex: 50%;
-          max-width: 50%;
-      }
+     
       /* -------------------- about section---------------------------*/
               #section-about {
                   margin-left: 5rem;
@@ -104,7 +72,7 @@ img {
              
               max-width: 350px;
           }
-          #section-about div img {
+          #section-about div .img-about{
               max-width: 100%;
           }
       
@@ -116,10 +84,7 @@ img {
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
-      .column {
-          flex: 50%;
-          max-width: 50%;
-      }
+     
 /* -------------------- about section---------------------------*/
         #section-about {
             margin-left: 2rem;
@@ -130,7 +95,7 @@ img {
        
         max-width: 350px;
     }
-    #section-about div img {
+    #section-about div .img-about {
         max-width: 100%;
     }
  
@@ -147,7 +112,7 @@ img {
     section{
         justify-content: space-around;
     }
-    #section-about div img {
+    #section-about div .img-about {
         max-width: 99%;
     }
  
@@ -155,3 +120,59 @@ img {
 
 
 
+  
+#gallery{
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  @media (max-width:1200px){
+    #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:800px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:600px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;  
+  } 
+}
+  #gallery img {
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    box-shadow:-3px 5px 15px #000;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+ 
+  .modal-body{
+    padding:0px;
+  }
+
+  .img-about {
+    max-width: 350px;
+  }
