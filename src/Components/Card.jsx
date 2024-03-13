@@ -37,21 +37,17 @@ const Card = () => {
   };
   
   return (
-    <div className="rower">
+    <div className=" contain "id="gallery" >
       {imageURLs.map((url, index) => (
-        <div className="column"  key={url} onClick={() => handleImageClick(url)}>
-          <button 
-            
-              data-bs-toggle="modal"
-              data-bs-target="#modalTable" 
-              style={{ border:'none'}}
-               >
-            <img src={url} alt={`Image ${index + 1}`} />
-          </button>
+        <div className="img-responsive "     key={url} onClick={() => handleImageClick(url)}>
+          
+            <img src={url} data-bs-toggle="modal" className=''
+              data-bs-target="#modalTable" alt={`Image ${index + 1}`} />
+         
         </div>
       ))}
      
-     <div className="modal fade" id="modalTable" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div className="modal fade  " id="modalTable" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog">
                   <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   <img src={selectedImage} alt="Modal Image" />
