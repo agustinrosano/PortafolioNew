@@ -3,9 +3,6 @@
   .contain {
       padding: 2rem;
   }
-  
-
-
 
   #section-about {
         display: flex;
@@ -56,7 +53,7 @@
            
             max-width: 350px;
         }
-        #section-about div img {
+        #section-about div .img-about {
             max-width: 100%;
         }
         
@@ -75,7 +72,7 @@
              
               max-width: 350px;
           }
-          #section-about div img {
+          #section-about div .img-about{
               max-width: 100%;
           }
       
@@ -98,7 +95,7 @@
        
         max-width: 350px;
     }
-    #section-about div img {
+    #section-about div .img-about {
         max-width: 100%;
     }
  
@@ -115,7 +112,7 @@
     section{
         justify-content: space-around;
     }
-    #section-about div img {
+    #section-about div .img-about {
         max-width: 99%;
     }
  
@@ -159,9 +156,9 @@
     #gallery{
     -webkit-column-count:2;
     -moz-column-count:2;
-    column-count:2;
-  }  
-  }
+    column-count:2;  
+  } 
+}
   #gallery img {
     width:100%;
     height:auto;
@@ -174,4 +171,8 @@
  
   .modal-body{
     padding:0px;
+  }
+
+  .img-about {
+    max-width: 350px;
   }

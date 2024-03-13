@@ -5,7 +5,7 @@ export const CardAbout = () => {
 <section className="d-flex align-items-center " id='section-about' >
   
     <div  style={{maxWidth:'350px'}}  >
-      <img src={"https://lh3.google.com/u/1/d/1xg_Q2uD8XTivRNlqdNh3Sy4HiFWTbxYY=w2000-h3556-iv1"} style={{boxShadow:' 0px 10px 10px 10px  #b2b1b1'}}   alt="seria esta" />
+      <img className="img-about"src={"https://lh3.google.com/u/1/d/1xg_Q2uD8XTivRNlqdNh3Sy4HiFWTbxYY=w2000-h3556-iv1"} style={{boxShadow:' 0px 10px 10px 10px  #b2b1b1'}}   alt="seria esta" />
      </div>
 
     <div style={{paddingRight: '30px', maxWidth:'700px'}} id='text-section'>
