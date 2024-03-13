@@ -35,7 +35,36 @@ img {
             
   }
 
+  /* Modal Styles */
+.modaxl {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+  }
   
+  .modal-contentx {
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fefefe;
+  }
+  
+  .closex {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media (max-width: 1200px) {

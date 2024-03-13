@@ -5,8 +5,10 @@ import App from './App';
 import { initializeApp } from 'firebase/app';
 
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'react-toastify/dist/ReactToastify.css';
 
-// Inicializar Firebase
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
