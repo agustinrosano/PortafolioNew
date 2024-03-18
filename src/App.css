@@ -41,7 +41,7 @@
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px) {
    
     /* -------------------- about section---------------------------*/
             #section-about {
@@ -57,6 +57,10 @@
             max-width: 100%;
         }
         
+        #navbarNav {
+            display: flex;
+            justify-content: flex-end;
+        }
 
 }
 
