@@ -1,182 +1,168 @@
+.contain {
+  padding: 2rem;
+}
 
 
-  .contain {
-      padding: 2rem;
-  }
 
-  #section-about {
-        display: flex;
-            
-  }
-
-  /* Modal Styles */
+/* Modal Styles */
 .modaxl {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .modal-contentx {
-    position: relative;
-    margin: 15% auto;
-    padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    background-color: #fefefe;
-  }
-  
-  .closex {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media (min-width: 1200px) {
-   
-    /* -------------------- about section---------------------------*/
-            #section-about {
-                margin-left: 5rem;
-                max-width: 100%;
-                    
-        }
-        #section-about div  {
-           
-            max-width: 350px;
-        }
-        #section-about div .img-about {
-            max-width: 100%;
-        }
-        
-        #navbarNav {
-            display: flex;
-            justify-content: flex-end;
-        }
-
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.7);
 }
 
-  @media (max-width: 800px) {
-     
-      /* -------------------- about section---------------------------*/
-              #section-about {
-                  margin-left: 5rem;
-                  max-width: 100%;
-                      
-          }
-          #section-about div  {
-             
-              max-width: 350px;
-          }
-          #section-about div .img-about{
-              max-width: 100%;
-          }
-      
-      
-      
+.modal-contentx {
+position: relative;
+margin: 15% auto;
+padding: 20px;
+width: 80%;
+max-width: 600px;
+background-color: #fefefe;
+}
 
+.closex {
+position: absolute;
+top: 10px;
+right: 15px;
+font-size: 24px;
+cursor: pointer;
+}
 
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-     
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (min-width: 1200px) {
+  #navbarNav{
+        display: flex;
+        justify-content: end;
+    }
+
 /* -------------------- about section---------------------------*/
-        #section-about {
-            margin-left: 2rem;
-            max-width: 100%;
-                
-    }
-    #section-about div  {
-       
-        max-width: 350px;
-    }
-    #section-about div .img-about {
-        max-width: 100%;
-    }
- 
-
- 
-
+   .section-about{
+    display: flex;
+   }
+  
+   .section-about .div-contenedor {
+    display: contents;
+   }
+   .section-about .div-contenedor .div-img img{
+    max-width: 350px;
+   }
 
   }
-  @media (max-width: 400px) {
-    #section-about {
-      margin-left: 1rem; /* Adjust the margin as needed */
-      
+
+@media (min-width:800px) {
+   
+  #navbarNav{
+          display: flex;
+          justify-content: end;
+      }
+   
+  /* -------------------- about section---------------------------*/
+  .section-about{
+    display: flex;
+   }
+  
+   .section-about .div-contenedor {
+    display: contents;
+   }
+   .section-about .div-contenedor .div-img img{
+    max-width: 350px;
+   }
+   
     }
-    section{
-        justify-content: space-around;
-    }
-    #section-about div .img-about {
-        max-width: 99%;
-    }
+
+@media (max-width: 800px) {
  
-  }
+  /* -------------------- about section---------------------------*/
+  #section-about {
+    
+}
 
+.section-about .div-contenedor .div-img {
+  display: flex ;
+  justify-content: center;
+  
+ }
 
+.section-about .div-contenedor .div-img img{
+  max-width: 250px;
+  ;
+ }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+ 
 
   
-#gallery{
-    -webkit-column-count:4;
-    -moz-column-count:4;
-    column-count:4;
-    
-    -webkit-column-gap:20px;
-    -moz-column-gap:20px;
-    column-gap:20px;
-  }
-  @media (max-width:1200px){
-    #gallery{
-    -webkit-column-count:3;
-    -moz-column-count:3;
-    column-count:3;
-      
-    -webkit-column-gap:20px;
-    -moz-column-gap:20px;
-    column-gap:20px;
-  }
-  }
-  @media (max-width:800px){
-    #gallery{
-    -webkit-column-count:2;
-    -moz-column-count:2;
-    column-count:2;
-      
-    -webkit-column-gap:20px;
-    -moz-column-gap:20px;
-    column-gap:20px;
-  }
-  }
-  @media (max-width:600px){
-    #gallery{
-    -webkit-column-count:2;
-    -moz-column-count:2;
-    column-count:2;  
-  } 
-}
-  #gallery img {
-    width:100%;
-    height:auto;
-    margin: 4% auto;
-    box-shadow:-3px 5px 15px #000;
-    cursor: pointer;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-  }
- 
-  .modal-body{
-    padding:0px;
-  }
 
-  .img-about {
-    max-width: 350px;
-  }
+
+
+}
+
+/*-------------------media query galerry------------------*/
+
+
+
+
+
+
+#gallery{
+-webkit-column-count:4;
+-moz-column-count:4;
+column-count:4;
+
+-webkit-column-gap:20px;
+-moz-column-gap:20px;
+column-gap:20px;
+}
+@media (max-width:1200px){
+#gallery{
+-webkit-column-count:3;
+-moz-column-count:3;
+column-count:3;
+  
+-webkit-column-gap:20px;
+-moz-column-gap:20px;
+column-gap:20px;
+}
+}
+@media (max-width:800px){
+#gallery{
+-webkit-column-count:2;
+-moz-column-count:2;
+column-count:2;
+  
+-webkit-column-gap:20px;
+-moz-column-gap:20px;
+column-gap:20px;
+}
+}
+@media (max-width:600px){
+#gallery{
+-webkit-column-count:2;
+-moz-column-count:2;
+column-count:2;  
+} 
+}
+#gallery img {
+width:100%;
+height:auto;
+margin: 4% auto;
+box-shadow:-3px 5px 15px #000;
+cursor: pointer;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+.modal-body{
+padding:0px;
+}
+
